@@ -1,0 +1,6 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+         "captioning/captioning": "1.*@dev"
+    }
+}

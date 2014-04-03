@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "06f34ba716c77f52eb10ab89f20e4854",
+    "packages": [
+        {
+            "name": "captioning/captioning",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/captioning/captioning.git",
+                "reference": "44f555653f3363c577d4b77a1a7fed1c5b222bf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/captioning/captioning/zipball/44f555653f3363c577d4b77a1a7fed1c5b222bf0",
+                "reference": "44f555653f3363c577d4b77a1a7fed1c5b222bf0",
+                "shasum": ""
+            },
+            "require": {
+                "neitanod/forceutf8": "dev-master"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "Captioning": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Julien Villetorte",
+                    "email": "j.villetorte@gmail.com",
+                    "homepage": "http://www.delphiki.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A collection of tools to manipulate subtitles",
+            "time": "2014-03-18 09:13:36"
+        },
+        {
+            "name": "neitanod/forceutf8",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neitanod/forceutf8.git",
+                "reference": "546fe2b8dfd280764a4d7906c9a9b1dc955eb876"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neitanod/forceutf8/zipball/546fe2b8dfd280764a4d7906c9a9b1dc955eb876",
+                "reference": "546fe2b8dfd280764a4d7906c9a9b1dc955eb876",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ForceUTF8\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "PHP Class Encoding featuring popular Encoding::toUTF8() function --formerly known as forceUTF8()-- that fixes mixed encoded strings.",
+            "homepage": "https://github.com/neitanod/forceutf8",
+            "time": "2013-03-10 08:51:59"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "captioning/captioning": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
