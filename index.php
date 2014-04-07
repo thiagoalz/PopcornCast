@@ -1,8 +1,7 @@
 <html>
 <body>
 
-<form action="closedcaptioningsender.php" method="post"
-enctype="multipart/form-data">
+<form action="newindex.php" method="post" enctype="multipart/form-data">
 <label for="file">Legenda:</label>
 <input type="file" name="file" id="file"><br>
 <label for="file">Popcorn IP:</label>
